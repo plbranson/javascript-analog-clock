@@ -1,0 +1,33 @@
+{
+  "name": "javascript-analog-clock",
+  "version": "1.0.0",
+  "description": "JavaScript Analog Clock",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plbranson/javascript-analog-clock.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Patrick L. Branson",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/plbranson/javascript-analog-clock/issues"
+  },
+  "homepage": "https://github.com/plbranson/javascript-analog-clock#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "helmet": "^5.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

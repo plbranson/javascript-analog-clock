@@ -1,0 +1,73 @@
+/**
+ *  Copyright 2022 Patrick L. Branson
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(43, 43, 43);
+}
+
+.clock {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    border: solid 5px rgb(255, 255, 55);
+    position: absolute;
+}
+
+#seconds-hand {
+    width: 2px;
+    height: 130px;
+    position: absolute;
+    background-color: rgb(70, 255, 255);
+    right: 149px;
+    bottom: 149px;
+    opacity: 50%;
+    transform-origin: 0% 100%;
+}
+
+#minutes-hand {
+    width: 2px;
+    height: 100px;
+    position: absolute;
+    background-color: rgb(253, 120, 227);
+    transform-origin: 0% 100%;
+    left: 149px;
+    bottom: 149px;
+}
+
+#hours-hand {
+    width: 4px;
+    height: 80px;
+    position: absolute;
+    left: 148px;
+    bottom: 148px;
+    background-color: rgb(205, 112, 255);
+    transform-origin: 0% 100%;
+}
+
+#center {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    position: absolute;
+    background-color: rgb(252, 255, 55);
+    left: 148px;
+    bottom: 148px;
+}
