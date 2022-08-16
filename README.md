@@ -1,6 +1,9 @@
 # javascript-analog-clock
 Analog Clock Written in JavaScript
 
+# Image Example
+![Clock](./public/images/clock.png)
+
 # License
 Please see [Apache 2.0 License](./LICENSE) for details.
 
