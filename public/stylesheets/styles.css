@@ -1,4 +1,4 @@
-/**
+/*
  *  Copyright 2022 Patrick L. Branson
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,60 +14,59 @@
  *  limitations under the License.
  */
 
-
 body {
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(43, 43, 43);
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(43, 43, 43);
 }
 
 .clock {
-    width: 300px;
-    height: 300px;
-    border-radius: 150px;
-    border: solid 5px rgb(255, 255, 55);
-    position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  border: solid 5px rgb(255, 255, 55);
+  position: absolute;
 }
 
 #seconds-hand {
-    width: 2px;
-    height: 130px;
-    position: absolute;
-    background-color: rgb(70, 255, 255);
-    right: 149px;
-    bottom: 149px;
-    opacity: 50%;
-    transform-origin: 0% 100%;
+  width: 2px;
+  height: 130px;
+  position: absolute;
+  background-color: rgb(70, 255, 255);
+  right: 149px;
+  bottom: 149px;
+  opacity: 50%;
+  transform-origin: 0% 100%;
 }
 
 #minutes-hand {
-    width: 2px;
-    height: 100px;
-    position: absolute;
-    background-color: rgb(253, 120, 227);
-    transform-origin: 0% 100%;
-    left: 149px;
-    bottom: 149px;
+  width: 2px;
+  height: 100px;
+  position: absolute;
+  background-color: rgb(253, 120, 227);
+  transform-origin: 0% 100%;
+  left: 149px;
+  bottom: 149px;
 }
 
 #hours-hand {
-    width: 4px;
-    height: 80px;
-    position: absolute;
-    left: 148px;
-    bottom: 148px;
-    background-color: rgb(205, 112, 255);
-    transform-origin: 0% 100%;
+  width: 4px;
+  height: 80px;
+  position: absolute;
+  left: 148px;
+  bottom: 148px;
+  background-color: rgb(205, 112, 255);
+  transform-origin: 0% 100%;
 }
 
 #center {
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
-    position: absolute;
-    background-color: rgb(252, 255, 55);
-    left: 148px;
-    bottom: 148px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  position: absolute;
+  background-color: rgb(252, 255, 55);
+  left: 148px;
+  bottom: 148px;
 }

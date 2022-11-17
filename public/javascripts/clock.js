@@ -1,4 +1,4 @@
-/**
+/*
  *  Copyright 2022 Patrick L. Branson
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,21 +14,20 @@
  *  limitations under the License.
  */
 
-const secondsHand = document.getElementById('seconds-hand');
-const minutesHand = document.getElementById('minutes-hand');
-const hoursHand = document.getElementById('hours-hand');
+const secondsHand = document.getElementById('seconds-hand')
+const minutesHand = document.getElementById('minutes-hand')
+const hoursHand = document.getElementById('hours-hand')
 
 function getTime() {
-  const now = new Date();
-  const timeInterval = 6;
-  const hours = now.getHours();
-  const seconds = now.getSeconds();
-  const minutes = now.getMinutes();
+  const now = new Date()
+  const timeInterval = 6
+  const hours = now.getHours()
+  const seconds = now.getSeconds()
+  const minutes = now.getMinutes()
 
-  secondsHand.style.transform = 'rotate(' + seconds * timeInterval + 'deg)';
-  minutesHand.style.transform =
-    'rotate(' + (minutes * timeInterval + seconds / 10) + 'deg)';
-  hoursHand.style.transform = 'rotate(' + (hours * 30 + minutes / 2) + 'deg)';
+  secondsHand.style.transform = 'rotate(' + seconds * timeInterval + 'deg)'
+  minutesHand.style.transform = 'rotate(' + (minutes * timeInterval + seconds / 10) + 'deg)'
+  hoursHand.style.transform = 'rotate(' + (hours * 30 + minutes / 2) + 'deg)'
 }
 
-setInterval(getTime, 100);
+setInterval(getTime, 100)
